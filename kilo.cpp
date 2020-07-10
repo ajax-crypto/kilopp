@@ -320,8 +320,10 @@ namespace kilopp
 
                  /* C types */
                  "int|", "long|", "double|", "float|", "char|", "unsigned|", "signed|",
-                 "void|", "short|", "auto|", "const|", "bool|", "wchar_t|", "char8_t|", 
-                 "char16_t|", "char32_t|", 
+                 "void|", "short|", "auto|", "const|", "bool|", 
+                 
+                 /* C++ types */
+                 "char16_t|", "char32_t|", "wchar_t|" 
                  },
              "//",
              "/*",
